@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#19351d">
+  <meta name="description" content="DRIPORA — Contemporary streetwear and everyday essentials.">
+  <title>DRIPORA — Everyday, Elevated</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="announcement">
+    NEW SEASON, NEW STORIES
+    <span>Complimentary shipping on orders over $100</span>
+  </div>
+
+  <header class="header">
+    <a href="#" class="logo">✳ DRIPORA<span>.</span></a>
+
+    <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-label="Buka menu"
+      aria-expanded="false">☰</button>
+
+    <nav class="nav" id="primary-nav">
+      <a href="#collections">Collections</a>
+      <a href="#story">Our Story</a>
+      <a href="#campaign">Campaign</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="search-toggle" type="button" aria-label="Cari produk" title="Cari produk">⌕</button>
+      <button class="cart-toggle">CART <span id="cart-count">0</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-label">
+        <span>TRADITIONAL / NEW PERSPECTIVE</span>
+        <span>VOL. 03 — EVERYDAY ICONS</span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">— THE NEW EVERYDAY</p>
+        <h1>Elevate your<br><em>everyday</em><br>uniform.</h1>
+        <p class="description">
+          Quiet confidence. Considered details. Pieces made to move
+          with you, wherever the day takes you.
+        </p>
+        <a href="#collections" class="button">Shop the collection ↗</a>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1523398002811-999ca8dec234?auto=format&fit=crop&w=1200&q=85"
+          alt="Contemporary streetwear editorial">
+        <span class="image-stamp">DR / 026<br>NEW SEASON</span>
+      </div>
+
+      <div class="hero-note note-left">
+        <span>01 / 03</span>
+        <p>Made for the<br>in-between moments.</p>
+      </div>
+
+      <div class="hero-note note-right">
+        <span>THE DRIPORA EDIT</span>
+        <p>Modern essentials.<br>Lasting expression.</p>
+      </div>
+
+      <div class="hero-footer">
+        <span>SCROLL TO EXPLORE ↓</span>
+        <span>DESIGNED TO BE WORN, NOT JUST SEEN.</span>
+      </div>
+    </section>
+
+    <section class="manifesto" id="story">
+      <div class="manifesto-label">
+        <span>THE DRIPORA POINT OF VIEW</span>
+        <span>EST. MMXXV</span>
+      </div>
+
+      <div class="manifesto-grid">
+        <div>
+          <p class="eyebrow">— EVERYDAY, ELEVATED</p>
+          <h2>Designed for<br>the moments<br>that <em>matter.</em></h2>
+        </div>
+
+        <div class="manifesto-image">
+          <img
+            src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=85"
+            alt="Fashion editorial portrait">
+          <span class="asterisk">✳</span>
+        </div>
+
+        <div class="manifesto-copy">
+          <span>01 — OUR PHILOSOPHY</span>
+          <p>
+            Personal style doesn't need to shout. It lives in the fit,
+            the fabric, the feeling — and the confidence to make it your own.
+          </p>
+          <a href="#brand-story" class="text-link">Get to know us ↗</a>
+        </div>
+      </div>
+      <div class="manifesto-footer">
+        <span>FORM FOLLOWS FEELING.</span>
+        <span>BUILT AROUND YOUR EVERYDAY.</span>
+      </div>
+    </section>
+
+    <section class="collections section" id="collections">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">— CURATED FOR YOU</p>
+          <h2>The essentials<br><em>edit.</em></h2>
+        </div>
+        <p class="description">
+          Thoughtful pieces. Easy combinations. A wardrobe that feels
+          unmistakably yours.
+        </p>
+      </div>
+
+      <div class="filters">
+        <button class="filter active" data-filter="all" aria-pressed="true">All pieces</button>
+        <button class="filter" data-filter="tops" aria-pressed="false">Tops</button>
+        <button class="filter" data-filter="outerwear" aria-pressed="false">Outerwear</button>
+        <button class="filter" data-filter="accessories" aria-pressed="false">Accessories</button>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card" data-category="tops"
+          data-id="ease-tee" data-name="Ease Tee" data-price="38">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=85"
+              alt="White everyday t-shirt">
+            <span class="product-tag">BESTSELLER</span>
+            <button class="quick-add">+ QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div><h3>Ease Tee</h3><p>Organic cotton · Chalk</p></div>
+            <span>$38</span>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="tops"
+          data-id="forest-tee" data-name="Forest Tee" data-price="42">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=700&q=85"
+              alt="Modern streetwear outfit">
+            <button class="quick-add">+ QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div><h3>Forest Tee</h3><p>Heavyweight cotton · Moss</p></div>
+            <span>$42</span>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="outerwear"
+          data-id="form-overshirt" data-name="Form Overshirt" data-price="86">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=700&q=85"
+              alt="Contemporary outerwear">
+            <span class="product-tag">NEW ARRIVAL</span>
+            <button class="quick-add">+ QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div><h3>Form Overshirt</h3><p>Structured twill · Sand</p></div>
+            <span>$86</span>
+          </div>
+        </article>
+
+        <article class="product-card" data-category="accessories"
+          data-id="daily-cap" data-name="Daily Cap" data-price="32">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=700&q=85"
+              alt="Minimal everyday cap">
+            <button class="quick-add">+ QUICK ADD</button>
+          </div>
+          <div class="product-info">
+            <div><h3>Daily Cap</h3><p>Cotton canvas · Olive</p></div>
+            <span>$32</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="collection-footer">
+        <span>01 — 04 / EVERYDAY ICONS</span>
+        <a href="#collections" class="text-link">Explore all pieces ↗</a>
+      </div>
+    </section>
+
+    <section class="campaign" id="campaign">
+      <img
+        src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1600&q=85"
+        alt="Fashion campaign editorial">
+      <div class="campaign-content">
+        <span>THE LATEST EDIT / 026</span>
+        <h2>Daily classics.<br><em>Entirely yours.</em></h2>
+        <p>Personal style is never one-size-fits-all. Find the pieces that feel like you.</p>
+        <a href="#collections" class="button">Find your fit ↗</a>
+      </div>
+      <span class="campaign-mark">✳</span>
+    </section>
+
+    <section class="brand-story section" id="brand-story">
+      <div class="story-image">
+        <img
+          src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=900&q=85"
+          alt="Curated fashion wardrobe">
+      </div>
+
+      <div class="story-copy">
+        <p class="eyebrow">— LESS, BUT BETTER</p>
+        <h2>Personal style.<br><em>More personal.</em></h2>
+        <p>
+          Versatile silhouettes, considered textures, and small details
+          that make a piece feel like yours.
+        </p>
+        <div class="story-stat">
+          <strong>01</strong>
+          <span>Intentional design<br>for everyday living.</span>
+        </div>
+        <a href="#collections" class="text-link">Discover the collection ↗</a>
+      </div>
+    </section>
+
+    <div class="ticker">
+      <div class="ticker-track" aria-label="Everyday, elevated. Wear what feels like you. Made to move.">
+        <span class="ticker-group">EVERYDAY, ELEVATED <i>✳</i> WEAR WHAT FEELS LIKE YOU <i>✳</i> MADE TO MOVE <i>✳</i></span>
+        <span class="ticker-group" aria-hidden="true">EVERYDAY, ELEVATED <i>✳</i> WEAR WHAT FEELS LIKE YOU <i>✳</i> MADE TO MOVE <i>✳</i></span>
+      </div>
+    </div>
+
+    <section class="newsletter section">
+      <div>
+        <p class="eyebrow">— NOTES FROM DRIPORA</p>
+        <h2>A little more<br><em>in your inbox.</em></h2>
+      </div>
+
+      <form id="newsletter-form">
+        <label for="email">New drops, styling notes, and good things.</label>
+        <div class="email-field">
+          <input type="email" id="email" placeholder="Your email address" required>
+          <button type="submit" aria-label="Subscribe">↗</button>
+        </div>
+        <p id="form-message">No spam. Just the good stuff.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-main">
+      <div>
+        <a href="#" class="logo light-logo">✳ DRIPORA<span>.</span></a>
+        <p>Everyday essentials for<br>your own kind of expression.</p>
+      </div>
+      <div>
+        <h3>EXPLORE</h3>
+        <a href="#collections">New arrivals</a>
+        <a href="#collections">Tops & tees</a>
+        <a href="#collections">Outerwear</a>
+        <a href="#collections">Accessories</a>
+      </div>
+      <div>
+        <h3>THE BRAND</h3>
+        <a href="#story">Our philosophy</a>
+        <a href="#campaign">Campaign journal</a>
+        <a href="mailto:hello@dripora.example">Contact</a>
+      </div>
+      <div>
+        <h3>FOLLOW ALONG</h3>
+        <a href="#campaign">Instagram ↗</a>
+        <a href="#campaign">Pinterest ↗</a>
+        <a href="#campaign">TikTok ↗</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© 2026 DRIPORA — CONCEPT STORE</span>
+      <span>DESIGNED WITH INTENTION.</span>
+      <a href="#">BACK TO TOP ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // Small inline fallback is intentionally empty.
+    // All interactions live in script.js.
+  </script>
+</body>
+</html>
+
+
+
+
